@@ -2,23 +2,24 @@ body {
     
     text-align: center;
     background: url(img/23.gif);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
   }
   
 .contenedor{
-  margin: 260px;
+  margin: 200px;
   margin-left: 350px;
   width: 500px;
-  height: 320px;
+  height: 600px;
   padding: 10px;
   background-color: rgba(255,255,255,0.1);
   border-radius: 10px;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(20px);
   border: 2px solid trasparent;
   background-clip: padding-box;
-  box-shadow: 10px 10px 10px rgba(45,55,68;0.0.3);
+  box-shadow: 10px 10px 10px rgba(45,55,68,0.0.3);
   line-height: 1.5;
 }
 
@@ -28,7 +29,7 @@ body {
   }
   
   p{
-   color:#fff;
+  color:#fff;
 }
 
 
@@ -52,37 +53,42 @@ body {
     font-size: 20px;
     margin-top: 20px;
   }
-
+  h4{
+  color: blue;
+  font-size: 20px;
+  }
 
 
 @media (max-width: 400px) {
   
- body {
- 
+body {
     text-align: center;
     background: url(img/23.gif);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 
 
+
 .contenedor {
-     margin: 60px;
+    margin: 60px;
     margin-left: 22px;
     width: 300px;
-    height: 520px;
+    height: 550px;
     padding: 10px;
     background-color: rgba(255,255,255,0.1);
     border-radius: 10px;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(20px);
     border: 2px solid trasparent;
     background-clip: padding-box;
-    box-shadow: 10px 10px 10px rgba(45,55,68;0.0.3);
-    line-height: 1.5;
+    box-shadow: 10px 10px 10px rgba(45,55,68,0.0.3);
+    line-height: 1.
+}
+
+h1{
+  font-size: 20px;
 }
 }
 
-
-
-  
